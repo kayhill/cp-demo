@@ -94,6 +94,7 @@ services:
       - 10091:10091
       - 11091:11091
       - 12091:12091
+      - 19092:19092
     environment:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2182
       KAFKA_ZOOKEEPER_SSL_CLIENT_ENABLE: 'true'
